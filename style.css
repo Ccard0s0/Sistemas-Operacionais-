@@ -3,6 +3,7 @@ body {
     background-size: 100% auto;
     padding: 10px;
     color: rgb(128, 0, 128); /* Tom de roxo */
+    margin-bottom: 50px; 
 }
 
 header {
