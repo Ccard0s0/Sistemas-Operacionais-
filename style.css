@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://www.bhmpics.com/downloads/white-and-purple-background/17.purple-and-white-background-i4lbt.jpg);
+    background-size: 100% auto;
+    padding: 10px;
+    color: rgb(128, 0, 128); /* Tom de roxo */
+}
+
+header {
+    background-color: rgba(196, 134, 20, 0.349);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+}
+
+.text-1 {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.text-2 {
+    margin-left: 25%;
+    color: rgb(128, 0, 128); /* Tom de roxo */
+}
+
+.li-1 {
+    margin-left: 25%;
+    color: rgb(128, 0, 128); /* Tom de roxo */
+}
+
+#video-container {
+    display: inline-block;
+    border: 5px solid #FF4500;
+    padding: 10px;
+}
+
+img {
+    float: right;
+    margin: 3px;
+}
