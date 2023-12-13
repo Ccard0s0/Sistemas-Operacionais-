@@ -2,8 +2,8 @@ body {
     background-image: url(https://www.bhmpics.com/downloads/white-and-purple-background/17.purple-and-white-background-i4lbt.jpg);
     background-size: 100% auto;
     padding: 10px;
-    color: rgb(128, 0, 128); /* Tom de roxo */
-    margin-bottom: 50px; 
+    color: rgb(128, 0, 128);
+    margin-bottom: 50px;
 }
 
 header {
@@ -20,21 +20,35 @@ header {
 
 .text-2 {
     margin-left: 25%;
-    color: rgb(128, 0, 128); /* Tom de roxo */
+    color: rgb(128, 0, 128);
 }
 
 .li-1 {
     margin-left: 25%;
-    color: rgb(128, 0, 128); /* Tom de roxo */
+    color: rgb(128, 0, 128);
 }
 
 #video-container {
     display: inline-block;
     border: 5px solid #FF4500;
     padding: 10px;
+    width: 300px;
+    height: 200px;
+}
+.button-container {
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #af7ac5; /* Cor de fundo roxa mais clara */
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
 
-img {
-    float: right;
-    margin: 3px;
+.button:hover {
+    background-color: #9b59b6; /* Cor de fundo roxa mais clara ao passar o mouse */
 }

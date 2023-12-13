@@ -39,3 +39,27 @@ document.addEventListener('DOMContentLoaded', function () {
     // Atualiza o deslocamento vertical do título a cada 20 milissegundos
     setInterval(animateTitle, 20);
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const videoContainer = document.getElementById('video-container');
+
+    // Função para gerar cores roxas aleatórias
+    function getRandomPurpleColor() {
+        const purpleColors = ['#4B0082', '#800080', '#483D8B', '#9932CC', '#8A2BE2'];
+        return purpleColors[Math.floor(Math.random() * purpleColors.length)];
+    }
+
+    // Função para aplicar uma borda roxa à imagem
+    function applyPurpleBorder() {
+        const novaCor = getRandomPurpleColor();
+        videoContainer.style.border = `5px solid ${novaCor}`;
+    }
+
+    // Chama a função para aplicar a borda a cada 500 milissegundos (0.5 segundos)
+    setInterval(applyPurpleBorder, 500);
+});
+
+function redirectPage(url) {
+    window.location.href = url;
+}
+
