@@ -62,4 +62,39 @@ document.addEventListener('DOMContentLoaded', function () {
 function redirectPage(url) {
     window.location.href = url;
 }
+// script.js
+
+function redirectPage(url) {
+    window.location.href = url;
+}
+// script.js
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Event listeners para os botões
+    document.getElementById('windowsButton').addEventListener('click', function () {
+        // Redireciona para a página1.html quando o botão Windows é clicado
+        window.location.href = 'Windows.html';
+    });
+
+    document.getElementById('androidButton').addEventListener('click', function () {
+        // Redireciona para a página2.html quando o botão Android é clicado
+        window.location.href = 'Android.html';
+    });
+
+    document.getElementById('macOSButton').addEventListener('click', function () {
+        // Redireciona para a página3.html quando o botão MacOS é clicado
+        window.location.href = 'MacOS.html';
+    });
+
+    document.getElementById('linuxButton').addEventListener('click', function () {
+        // Redireciona para a página4.html quando o botão Linux é clicado
+        window.location.href = 'Linux.html';
+    });
+
+    document.getElementById('iosButton').addEventListener('click', function () {
+        // Redireciona para a página5.html quando o botão IOS é clicado
+        window.location.href = 'IOS.html';
+    });
+});
+
 

@@ -35,14 +35,16 @@ header {
     width: 300px;
     height: 200px;
 }
+
 .button-container {
     text-align: center;
 }
+
 .button {
     display: inline-block;
     padding: 10px 20px;
     margin: 10px;
-    background-color: #af7ac5; 
+    background-color: #af7ac5;
     color: #fff;
     cursor: pointer;
     border: none;
@@ -50,6 +52,31 @@ header {
 }
 
 .button:hover {
-    background-color: #9b59b6; 
+    background-color: #9b59b6;
 }
 
+.button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #3e2f85;
+}
+
+.color-changing-text-button {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+}
